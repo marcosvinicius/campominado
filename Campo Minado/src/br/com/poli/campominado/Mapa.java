@@ -52,5 +52,5 @@ public class Mapa {
 				System.out.print(campo[i][j]);
 			}
 		}
-	}
+	} //kcsnjfsd.fbsav.s\nbl;\aç
 }
