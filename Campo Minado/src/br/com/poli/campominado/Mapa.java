@@ -8,9 +8,17 @@ public class Mapa {
 	
 	public Mapa(Dificuldade dificuldade) {
 		this.dificuldade = dificuldade;
-		campo = new int  [this.dificuldade.getValorDificuldade()][this.dificuldade.getValorDificuldade()];
+		campo = new int [this.dificuldade.getValorDificuldade()][this.dificuldade.getValorDificuldade()];
 		inicializaCampo();
 		imprimeTela();
+	}
+	
+	public int[][] getCampo() {
+		return this.campo;
+	}
+	
+	public Dificuldade getDificuldade() {
+		return this.dificuldade;
 	}
 	
 	public void inicializaCampo() {
@@ -19,7 +27,7 @@ public class Mapa {
 		int x;
 		int y;
 		
-		while(contador !=0) {
+		while(contador != 0) {
 			x = gerador.nextInt(campo.length);
 			y = gerador.nextInt(campo.length);
 			
