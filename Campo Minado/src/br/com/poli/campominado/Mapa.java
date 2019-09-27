@@ -17,8 +17,16 @@ public class Mapa {
 		return this.campo;
 	}
 	
+	public void setCampo(int[][] campo){
+		this.campo = campo;
+	}
+	
 	public Dificuldade getDificuldade() {
 		return this.dificuldade;
+	}
+	
+	public void setDificuldade(Dificuldade dificuldade) {
+		this.dificuldade = dificuldade;
 	}
 	
 	public void inicializaCampo() {

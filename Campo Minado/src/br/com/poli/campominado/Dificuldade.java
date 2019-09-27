@@ -12,4 +12,8 @@ public enum Dificuldade {
 	public int getValorDificuldade() {
 		return this.valor;
 	}
+	
+	public void setValorDificuldade(int valor) {
+		this.valor = valor;
+	}
 }
