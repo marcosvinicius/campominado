@@ -8,7 +8,7 @@ public class Mapa {
 	
 	public Mapa(Dificuldade dificuldade) {
 		this.dificuldade = dificuldade;
-		campo = new int [this.dificuldade.getValorDificuldade()][this.dificuldade.getValorDificuldade()];
+		this.campo = new int [this.dificuldade.getValorDificuldade()][this.dificuldade.getValorDificuldade()];
 		inicializaCampo();
 		imprimeTela();
 	}

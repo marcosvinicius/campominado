@@ -5,10 +5,10 @@ public class CampoMinado {
 	private Mapa mapa;
 	private Dificuldade dificuldade;
 	
-	public CampoMinado (Jogador jogador, Mapa mapa, Dificuldade dificuldade) {
+	public CampoMinado (Jogador jogador, Dificuldade dificuldade) {
 		this.jogador = jogador;
-		this.mapa = mapa;
 		this.dificuldade = dificuldade;
+		this.mapa = new Mapa(dificuldade);
 	}
 	
 	public Jogador getJogador() {
