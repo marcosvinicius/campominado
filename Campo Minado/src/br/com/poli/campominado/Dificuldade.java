@@ -1,7 +1,7 @@
 package br.com.poli.campominado;
 
 public enum Dificuldade {
-	FACIL(9), DIFICIL(16);
+	FACIL(9), MEDIO(16), DIFICIL(32);
 	
 	private int valor;
 	
