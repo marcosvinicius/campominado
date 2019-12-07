@@ -1,0 +1,21 @@
+Nome: Manoel
+Dificuldade: FACIL
+Tempo: 1s
+Nome: José
+Dificuldade: MEDIO
+Tempo: 6s
+Nome: João
+Dificuldade: DIFICIL
+Tempo: 8sNome: Bruno
+Dificuldade: FACIL
+Tempo: 40sNome: g
+Dificuldade: FACIL
+Tempo: 59sNome: asd
+Dificuldade: FACIL
+Tempo: 157s
+Nome: sad
+Dificuldade: FACIL
+Tempo: 207s
+Nome: m
+Dificuldade: FACIL
+Tempo: 151s

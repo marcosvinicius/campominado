@@ -1,4 +1,4 @@
-package br.com.poli.campominado;
+package br.com.poli.campominado.jogo;
 
 import java.util.Scanner;
 

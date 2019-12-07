@@ -1,10 +1,10 @@
-package br.com.poli.campominado;
+package br.com.poli.campominado.jogo;
 
 public enum Dificuldade {
 	FACIL(9), MEDIO(16), DIFICIL(32);
 	
 	private int valor;
-	
+
 	private Dificuldade(int valor) {
 		this.valor = valor;
 	}

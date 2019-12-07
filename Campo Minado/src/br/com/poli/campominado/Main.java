@@ -1,11 +1,10 @@
 package br.com.poli.campominado;
 
+import br.com.poli.campominado.gui.*;
+
 public class Main {
-	public static void main(String[] args) {
-		
-		Jogador jogador = new Jogador("João");
-		CampoMinado jogo = new CampoMinado(jogador, Dificuldade.DIFICIL);
-		jogo.iniciarJogo();
-		//caso queira ver o mapa de bombas, basta chamar imprimirTela com parametro true
+	public static void main(String[] args) {		
+		TelaMenu menu = new TelaMenu();
+		menu.setVisible(true);	
 	}
 }

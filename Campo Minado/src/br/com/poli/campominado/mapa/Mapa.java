@@ -2,6 +2,7 @@ package br.com.poli.campominado.mapa;
 
 import java.util.Random;
 import br.com.poli.campominado.*;
+import br.com.poli.campominado.jogo.Dificuldade;
 
 public abstract class Mapa {
 	private Celula[][] campo;
@@ -51,17 +52,25 @@ public abstract class Mapa {
 		return this.celulasVisiveis;
 	}
 	
+	public int getBomba() {
+		return this.bombas;
+	}
+	
+	public void setBomba(int bombas) {
+		this.bombas = bombas;
+	}
+	
 	private void distribuirBombas(int bombas) {	
 		Random gerador = new Random();
-		int x;
-		int y;
+		int linha;
+		int coluna;
 		
 		while (bombas != 0) {
-			x = gerador.nextInt(campo.length); 
-			y = gerador.nextInt(campo.length);
+			linha = gerador.nextInt(campo.length); 
+			coluna = gerador.nextInt(campo.length);
 			
-			if (campo[x][y].isBomba() == false) {
-				campo[x][y].setBomba(true);
+			if (campo[linha][coluna].isBomba() == false) {
+				campo[linha][coluna].setBomba(true);
 				bombas--;
 			}
 		}

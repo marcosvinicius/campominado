@@ -1,4 +1,4 @@
-package br.com.poli.campominado;
+package br.com.poli.campominado.mapa;
 
 import java.util.ArrayList;
 import java.util.List;
